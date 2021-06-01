@@ -1,6 +1,6 @@
 <template>
     <div>
-      <h1>导入品牌</h1>
+      <h1>导入品牌?</h1>
     </div>
 </template>
 

@@ -45,7 +45,8 @@
         updatePassword:{
           oldPassword:null,
           newPassword:null
-        }
+        },
+          test:null,
       }
     },
     watch:{

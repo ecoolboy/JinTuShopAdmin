@@ -1,6 +1,6 @@
 <template>
     <div>
-      <h1>商品All</h1>
+      <h1>商品All?</h1>
     </div>
 </template>
 

@@ -1,6 +1,6 @@
 <template>
     <div>
-      <h1>userHISTORy</h1>
+      <h1>userHISTORy?</h1>
     </div>
 </template>
 

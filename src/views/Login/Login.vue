@@ -1,7 +1,7 @@
 <template>
     <div>
       <h1>login</h1>
-      <el-button type="primary" @click="login">Login</el-button>
+      <el-button type="success" @click="login">Login</el-button>
     </div>
 </template>
 

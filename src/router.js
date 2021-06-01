@@ -3,7 +3,7 @@ import Router from 'vue-router'
 import Login from './views/Login/Login'
 
 Vue.use(Router)
-
+//test
 export default new Router({
   mode: 'history',
   base: process.env.BASE_URL,

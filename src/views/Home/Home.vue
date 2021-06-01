@@ -14,6 +14,11 @@ import Header from '../../components/Header'
 import AsideNav from '../../components/AsideNav'
 export default {
   name: 'home',
+    data(){
+      return {
+
+      }
+    },
   components:{
     Header,AsideNav
   }
