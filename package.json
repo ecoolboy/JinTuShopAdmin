@@ -12,9 +12,11 @@
     "axios": "^0.21.1",
     "core-js": "^2.6.5",
     "element-ui": "^2.15.2",
+    "jspreadsheet-ce": "^4.7.3",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3",
-    "vuex": "^3.0.1"
+    "vuex": "^3.0.1",
+    "xlsx": "^0.17.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.4",

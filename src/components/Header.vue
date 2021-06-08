@@ -2,7 +2,7 @@
   <div class="header">
     <div class="left">
       <el-breadcrumb separator-class="el-icon-arrow-right">
-        <el-breadcrumb-item v-for="item in levelList" :key="item.path" :to="item.path">{{item.meta.title}}</el-breadcrumb-item>
+        <el-breadcrumb-item v-for="(item,index) in levelList" :key="index" :to="item.path">{{item.meta.title}}</el-breadcrumb-item>
       </el-breadcrumb>
     </div>
     <div class="user">
@@ -40,7 +40,12 @@
     name: 'Header',
     data(){
       return{
-        levelList:[],
+        levelList:[{
+            path:'/',
+            meta:{
+                title:'首页',
+            },
+        }],
         dialogVisible:false,
         updatePassword:{
           oldPassword:null,
